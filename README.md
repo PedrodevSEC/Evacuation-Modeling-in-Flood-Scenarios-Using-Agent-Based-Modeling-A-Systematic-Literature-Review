@@ -13,11 +13,9 @@ tomadas ao longo das diferentes etapas da revisão.
 Os artefatos estão organizados em três planilhas, correspondentes às
 principais etapas do processo de seleção e análise dos estudos:
 
-- `Camada_1.xlsx` — primeira etapa de triagem dos estudos recuperados;
-- `Camada_2.xlsx` — classificação dos estudos segundo as características
-  analisadas na revisão;
-- `Camada_3.xlsx` — etapa de análise detalhada e seleção dos estudos
-  considerados para a análise final.
+- `Camada_1.xlsx` — primeira camada de triagem dos estudos recuperados;
+- `Camada_2.xlsx` — segunda camada de classificação e refinamento dos estudos;
+- `Camada_3.xlsx` — terceira camada de análise detalhada e seleção final.
 
 ## Processo da revisão
 
