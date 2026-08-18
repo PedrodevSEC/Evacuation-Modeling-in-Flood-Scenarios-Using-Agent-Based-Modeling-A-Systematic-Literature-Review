@@ -83,3 +83,71 @@ Camada 3 — Análise detalhada
         ↓
 Estudos incluídos na análise final
 ```
+
+## Como reproduzir a seleção dos estudos
+
+As planilhas permitem reproduzir o processo de seleção dos estudos a
+partir das três etapas de análise. Para obter os mesmos resultados
+apresentados no artigo, devem ser aplicados os filtros descritos a seguir.
+
+### 1. Camada 1 — Triagem inicial
+
+Na planilha `Camada_1.xlsx`, utilize o filtro disponível na coluna
+correspondente à decisão de classificação.
+
+Selecione apenas os registros identificados pelo ícone **✅**.
+
+A aplicação desse filtro resulta em **273 estudos**, que correspondem
+aos trabalhos selecionados para a segunda etapa da revisão.
+
+Os estudos classificados nas demais categorias não são considerados
+nas etapas seguintes.
+
+### 2. Camada 2 — Classificação e refinamento
+
+Na planilha `Camada_2.xlsx`, devem ser aplicados simultaneamente os
+seguintes filtros:
+
+- **Tipo de crise:** Enchente;
+- **Escala:** Regional;
+- **Comportamento humano:** Sim;
+- **Ferramenta:** todas as opções, exceto **Não informado**;
+- **Disponibilidade:** Sim.
+
+A aplicação conjunta desses critérios resulta em **18 estudos**,
+selecionados para a análise detalhada da terceira camada.
+
+### 3. Camada 3 — Seleção final
+
+Na planilha `Camada_3.xlsx`, utilize o filtro da coluna de decisão final.
+
+Selecione apenas os estudos em que:
+
+- **Incluir = Sim**.
+
+Esse filtro resulta em **7 estudos**, que correspondem ao conjunto final
+de trabalhos incluídos na análise apresentada no artigo.
+
+### Resumo do processo
+
+O processo de seleção pode ser reproduzido da seguinte forma:
+
+```text
+Camada 1
+Filtro: ✅
+        ↓
+273 estudos
+
+Camada 2
+Tipo de crise = Enchente
+Escala = Regional
+Comportamento humano = Sim
+Ferramenta ≠ Não informado
+Disponibilidade = Sim
+        ↓
+18 estudos
+
+Camada 3
+Incluir = Sim
+        ↓
+7 estudos finais
